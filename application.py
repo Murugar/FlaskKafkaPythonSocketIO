@@ -1,10 +1,4 @@
-"""
-Demo Flask application to test the operation of Flask with socket.io
 
-Aim is to create a webpage that is constantly updated with random numbers from a background python process.
-
-30th May 2014
-"""
 
 # Start with a basic flask app webpage.
 from flask.ext.socketio import SocketIO, emit
@@ -16,7 +10,7 @@ from kafka.client import SimpleClient
 from kafka.consumer import SimpleConsumer
 
 
-__author__ = 'slynn'
+__author__ = 'test'
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'secret!'
